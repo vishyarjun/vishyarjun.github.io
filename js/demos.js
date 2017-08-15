@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     typeSpeed: 20,
     backSpeed: 20,
     startDelay: 1000,
-    loop: false,
+    loop: true,
     loopCount: Infinity,
     onComplete: function(self) { prettyLog('onComplete ' + self) },
     preStringTyped: function(pos, self) { prettyLog('preStringTyped ' + pos + ' ' + self); },
