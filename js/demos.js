@@ -50,9 +50,9 @@ document.addEventListener('DOMContentLoaded', function() {
 
   new Typed('#typed3', {
     strings: ['My strings are: <i>strings</i> with', 'My strings are: <strong>HTML</strong>', 'My strings are: Chars &times; &copy;'],
-    typeSpeed: 0,
-    backSpeed: 0,
-    smartBackspace: true,
+    typeSpeed: 20,
+    backSpeed: 20,
+    startDelay: 1000,
     loop: true
   });
 
@@ -83,6 +83,10 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 });
 
+var typed = new Typed(".element", {
+  // Waits 1000ms after typing "First"
+  strings: ["First ^1000 sentence.", "Second sentence."]
+});
 function prettyLog(str) {
   console.log('%c ' + str, 'color: green; font-weight: bold;');
 }

@@ -159,7 +159,7 @@ section.success {
       font-size: 1.5em; } }
 
 header.masthead {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
   color: white;
@@ -179,8 +179,8 @@ header.masthead {
 
 @media (min-width: 768px) {
   header.masthead {
-    padding-top: 200px;
-    padding-bottom: 100px; }
+    padding-top: 100px;
+    padding-bottom: 50px; }
     header.masthead .intro-text .name {
       font-size: 4.75em; }
     header.masthead .intro-text .skills {
@@ -451,7 +451,7 @@ footer {
 
 .type-wrap {
     margin: 10px auto;
-    padding: 20px;
+    padding: 10px;
     border-radius: 5px;
 }
 .wrap{
